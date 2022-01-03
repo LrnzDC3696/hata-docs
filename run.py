@@ -10,4 +10,4 @@ load_dotenv()
 IS_DEV_MODE = os.environ['DEVMODE'] == 'True'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=IS_DEV_MODE)
