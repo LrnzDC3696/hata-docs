@@ -102,3 +102,39 @@ input[type=checkbox]{
     display: block;
   }
 }
+
+
+/* SHOWCASE */
+#showcase {
+  background-color: grey;
+  padding: 50.69px;
+  height: 269px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1 {
+  font-size: 69px;
+  margin: auto;
+}
+
+#showcase p {
+  font-size: 25px;
+}
+
+#showcase #searchbox {
+  border: 3px solid white;
+  height: 40px;
+  width: 69px;
+}
+
+#showcase input {
+  font-size: 17px;
+  border: 3px solid white;
+  height: 40px;
+  width: 300px;
+  border-radius: 50px;
+  padding: 5px, 10px;
+  margin: auto;
+  text-align: center;
+}
