@@ -1,14 +1,33 @@
 {% extends "base.html" %}
 {% block content %}
       <section id="showcase">
-        <div class="center">
+        <div class="container">
           <h1>Hata</h1>
           <p>A blazing fast discord API wrapper that you can't deny.</p>
           <br>
           <form>
             <input type="text" name="box" placeholder="search">
-            <input type="submit" id="searchbox" value="Nani?!">
           </form>
+        </div>
+      </section>
+      <section id="panels">
+        <div class="container">
+          <a href="{{ url_for('intro') }}" class="panel">
+            <h2>Introduction</h2>
+            <p>New to hata? Here we have introduction about hata!</p>
+          </a>
+          <a href="{{ url_for('topic') }}" class="panel">
+            <h2>Topic</h2>
+            <p>Don't have any idea? Take a peek here and see topics</p>
+          </a>
+          <a href="{{ url_for('ref') }}" class="panel">
+            <h2>References</h2>
+            <p>Need references? Jump right in to see other references!</p>
+          </a>
+          <a href="{{ url_for('meta') }}" class="panel">
+            <h2>Meta</h2>
+            <p>Want to know more about project? Lez Go!</p>
+          </a>
         </div>
       </section>
 {% endblock content %}

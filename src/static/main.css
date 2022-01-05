@@ -7,6 +7,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5F5F5;
 }
 
 a {
@@ -17,6 +18,10 @@ li {
   list-style: none;
 }
 
+.container {
+  margin: auto;
+  overflow: hidden;
+}
 
 /* NAVBAR STYLING STARTS */
 .navbar {
@@ -107,10 +112,11 @@ input[type=checkbox]{
 /* SHOWCASE */
 #showcase {
   background-color: grey;
-  padding: 50.69px;
-  height: 269px;
-  text-align: center;
   color: #fff;
+  height: 269px;
+  margin-bottom: 17px;
+  padding: 50.69px;
+  text-align: center;
 }
 
 #showcase h1 {
@@ -122,12 +128,6 @@ input[type=checkbox]{
   font-size: 25px;
 }
 
-#showcase #searchbox {
-  border: 3px solid white;
-  height: 40px;
-  width: 69px;
-}
-
 #showcase input {
   font-size: 17px;
   border: 3px solid white;
@@ -137,4 +137,23 @@ input[type=checkbox]{
   padding: 5px, 10px;
   margin: auto;
   text-align: center;
+}
+
+/* PANELS */
+#panels{
+  min-height: 400px;
+  text-align: center;
+  color: black;
+}
+
+#panels .panel {
+  background-color: lightgrey;
+  border-radius: 6.9px;
+  color: black;
+  display: inline-block;
+  height: 40%;
+  margin: 6.9px;
+  padding: 5%;
+  text-decoration: none;
+  width: 40%;
 }

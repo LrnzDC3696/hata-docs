@@ -15,12 +15,10 @@ def intro():
 def topic():
     return render_template('topic.html')
 
-# basically the whole hata website
 @app.route("/ref/")
 def ref():
     return render_template('ref.html')
 
-# meta
 @app.route("/meta/")
 def meta():
     return render_template('meta.html')
